@@ -4,9 +4,11 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "test": "cypress run --headless"
   },
   "devDependencies": {
+    "cypress": "^9.6.1",
     "nuxt": "3.0.0-rc.3"
   }
 }
